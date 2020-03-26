@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<title>Robot Tool test page</title>
+</head>
+
+<script>
+function init() {
+	// prices
+	$("#price1").html(r("Euro 199,00", "Euro 250,00"))
+	$("#price2").html(r("Euro 150,99", "Euro 175,00"))
+	$("#price3").html(r("Euro 899,99", "Euro 999,99"))
+	$("#price4").html(r("Euro 1500,00", "Euro 1650,00"))
+	
+	$("#amount1").html(r("5", "4"))
+	$("#amount2").html(r("10", "11"))
+	$("#amount3").html(r("5", "20"))
+	$("#amount4").html(r("2", "4"))
+	$("#price5").html(r("Euro 1000,00", "Euro 1200,00"))
+	$("#price6").html(r("Euro 1400,00", "Euro 1400,00"))
+	$("#price7").html(r("Euro 2300,00", "Euro 2200,00"))
+	$("#price8").html(r("Euro 2800,00", "Euro 3000,00"))
+
+}
+function r(a, b) {
+	return(Math.random() < 0.5 ? a : b)
+}
+
+</script> 
+
+<body onload="init()">
+<H2>Robot Tool test page</H2>
+<h3>Some products and prices:</h3>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-cly1">Name</th>
+    <th class="tg-0lax">Color</th>
+    <th class="tg-0lax">Size</th>
+    <th class="tg-0lax">Price</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Grandmothers bike</td>
+    <td class="tg-0lax">Black</td>
+    <td class="tg-0lax">M</td>
+    <td class="tg-0lax" id="price1"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Kids bike</td>
+    <td class="tg-0lax">Blue</td>
+    <td class="tg-0lax">S</td>
+    <td class="tg-0lax" id="price2"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mountainbike</td>
+    <td class="tg-0lax">Silver<br></td>
+    <td class="tg-0lax">L</td>
+    <td class="tg-0lax" id="price3"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Racebike</td>
+    <td class="tg-0lax">Red<br></td>
+    <td class="tg-0lax">M</td>
+    <td class="tg-0lax" id="price4"></td>
+  </tr>
+</table>
+<br/>
+
+<h3>Package deals (prices with volumes):</h3>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-cly1">Name</th>
+    <th class="tg-0lax">Color</th>
+    <th class="tg-0lax">Size</th>
+    <th class="tg-0lax">Amount</th>
+    <th class="tg-0lax">Price</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Grandmothers bike</td>
+    <td class="tg-0lax">Black</td>
+    <td class="tg-0lax">M</td>
+    <td class="tg-0lax" id="amount1">5</td>
+    <td class="tg-0lax" id="price5"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Kids bike</td>
+    <td class="tg-0lax">Blue</td>
+    <td class="tg-0lax">S</td>
+    <td class="tg-0lax" id="amount2">10<br></td>
+    <td class="tg-0lax" id="price6"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mountainbike</td>
+    <td class="tg-0lax">Silver<br></td>
+    <td class="tg-0lax">L</td>
+    <td class="tg-0lax" id="amount3">5</td>
+    <td class="tg-0lax" id="price7"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Racebike</td>
+    <td class="tg-0lax">Red<br></td>
+    <td class="tg-0lax">M</td>
+    <td class="tg-0lax" id="amount4">2</td>
+    <td class="tg-0lax" id="price8"></td>
+  </tr>
+</table>
+<br/>
+
+<b>Prices on a subpage:</b>
+<a href="click1.htm"> Click here for our sales!</a>
+<br/><br/>
+
+<b>Form1: form with action:</b>
+<form action="form1.php" method="get">
+First field: <input type="text" name="firstfield"><br>
+Second field: <input type="text" name="secondfield"><br>
+<input type="submit" value="Submit">
+</form>
+<br/>
+
+<b>Form2: form with onclick to new page:</b>
+<form>
+First field: <input type="text" name="firstfield"><br>
+<input type="button" value="Doit" onclick="window.open('form2.php', '_self');">
+</form>
+<br/>
+
+<b>Form3: form with onclick to fill new price:</b>
+<form>
+<div id="priceForm3">The form3 price is Euro 25,00.</div>
+First field: <input id="ff" type="text" name="firstfield"><br>
+<input id="inputForm3" type="button" value="Doit" onclick="document.getElementById('priceForm3').innerHTML = 'The form3 price is Euro ' + document.getElementById('ff').value;">
+</form>
+<br/>
+
+</body>
+</html>
