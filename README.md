@@ -1,6 +1,7 @@
 # webscrapingtests
-Website with typical test cases for various Statistics Netherlands scraping tools
+Webscraping testing ground for various Statistics Netherlands scraping tools
 
-Tests for RobotTool:
+Tests for the [RobotTool](https://github.com/SNStatComp/RobotTool):
+
 https://snstatcomp.github.io/webscrapingtests/RobotTool
 
