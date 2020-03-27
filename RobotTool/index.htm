@@ -8,30 +8,28 @@
 
 <script>
 function init() {
-	// prices
-	$("#price1").html(r("Euro 199,00", "Euro 250,00"))
-	$("#price2").html(r("Euro 150,99", "Euro 175,00"))
-	$("#price3").html(r("Euro 899,99", "Euro 999,99"))
-	$("#price4").html(r("Euro 1500,00", "Euro 1650,00"))
+	$("#price1").html(r("Euro 199,00", "Euro 250,00", 0.5))
+	$("#price2").html(r("Euro 150,99", "Euro 175,00", 0.6))
+	$("#price3").html(r("Euro 899,99", "Euro 999,99", 0.7))
+	$("#price4").html(r("Euro 1500,00", "Euro 1650,00", 0.5))
 	
-	$("#amount1").html(r("5", "4"))
-	$("#amount2").html(r("10", "11"))
-	$("#amount3").html(r("5", "20"))
-	$("#amount4").html(r("2", "4"))
-	$("#price5").html(r("Euro 1000,00", "Euro 1200,00"))
-	$("#price6").html(r("Euro 1400,00", "Euro 1400,00"))
-	$("#price7").html(r("Euro 2300,00", "Euro 2200,00"))
-	$("#price8").html(r("Euro 2800,00", "Euro 3000,00"))
+	$("#amount1").html(r("5", "4", 0.6))
+	$("#amount2").html(r("10", "11", 0.3))
+	$("#amount3").html(r("5", "20", 0.4))
+	$("#amount4").html(r("2", "4", 0.6))
+	$("#price5").html(r("Euro 1000,00", "Euro 1200,00", 0.7))
+	$("#price6").html(r("Euro 1400,00", "Euro 1400,00", 0.7))
+	$("#price7").html(r("Euro 2300,00", "Euro 2200,00", 0.7))
+	$("#price8").html(r("Euro 2800,00", "Euro 3000,00", 0.5))
 
 }
-function r(a, b) {
-	return(Math.random() < 0.5 ? a : b)
+function r(a, b, p) {
+	return(Math.random() < p ? a : b)
 }
-
 </script> 
 
 <body onload="init()">
-<H2>Robot Tool test page</H2>
+<H2>Robot Tool test page <small>(refresh to see changes)</small></H2>
 <h3>Some products and prices:</h3>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;}
@@ -74,7 +72,7 @@ function r(a, b) {
 </table>
 <br/>
 
-<h3>Package deals (prices with volumes):</h3>
+<h3>Products and Prices with volumes:</h3>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
@@ -121,32 +119,8 @@ function r(a, b) {
 </table>
 <br/>
 
-<b>Prices on a subpage:</b>
-<a href="click1.htm"> Click here for our sales!</a>
-<br/><br/>
-
-<b>Form1: form with action:</b>
-<form action="form1.php" method="get">
-First field: <input type="text" name="firstfield"><br>
-Second field: <input type="text" name="secondfield"><br>
-<input type="submit" value="Submit">
-</form>
-<br/>
-
-<b>Form2: form with onclick to new page:</b>
-<form>
-First field: <input type="text" name="firstfield"><br>
-<input type="button" value="Doit" onclick="window.open('form2.php', '_self');">
-</form>
-<br/>
-
-<b>Form3: form with onclick to fill new price:</b>
-<form>
-<div id="priceForm3">The form3 price is Euro 25,00.</div>
-First field: <input id="ff" type="text" name="firstfield"><br>
-<input id="inputForm3" type="button" value="Doit" onclick="document.getElementById('priceForm3').innerHTML = 'The form3 price is Euro ' + document.getElementById('ff').value;">
-</form>
-<br/>
+<h3>Prices on a subpage:</h3>
+<a href="click1.htm"> Click here</a>
 
 </body>
 </html>

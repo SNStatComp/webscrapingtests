@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<title>Sub page</title>
+</head>
+
+<script>
+function init() {
+	$("#price1").html(r("Euro 150,00", "Euro 250,00", 0.5))
+	$("#price2").html(r("Euro 99,00", "Euro 199,99", 0.9))
+	$("#price3").html(r("Euro 300,00", "Euro 320,00", 0.8))
+}
+function r(a, b, p) {
+	return(Math.random() < p ? a : b)
+}
+</script> 
+
+<body onload="init()">
+<h3>Sub page</h3>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#bbb;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-cly1">Name</th>
+    <th class="tg-0lax">Color</th>
+    <th class="tg-0lax">Size</th>
+    <th class="tg-0lax">Price</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Children bike 1</td>
+    <td class="tg-0lax">Red</td>
+    <td class="tg-0lax">S</td>
+    <td class="tg-0lax" id="price1"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Children bike 2</td>
+    <td class="tg-0lax">Blue</td>
+    <td class="tg-0lax">S</td>
+    <td class="tg-0lax" id="price2"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Children bike 3</td>
+    <td class="tg-0lax">Purple<br></td>
+    <td class="tg-0lax">L</td>
+    <td class="tg-0lax" id="price3"></td>
+  </tr>
+</table>
+
+<h3>Go to sub sub page:</h3>
+<a href="click11.htm"> Click here</a>
+
+
+</body>
+</html>
