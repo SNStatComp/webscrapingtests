@@ -1,0 +1,17 @@
+productgroup,description,productgroupComment,source,name,url,is_active,comment,currency,path,step_no,step_type,parameter
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,122245,Form2,http://robottool.hol.es/,1,,NL (EUR),/x:html/x:body/x:form[2]/x:input[1],1,I,123
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,122245,Form2,http://robottool.hol.es/,1,,NL (EUR),/x:html/x:body/x:form[2]/x:input[2],3,L,
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,122245,Form2,http://robottool.hol.es/,1,,NL (EUR),"id('form2Price3')",4,C,
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1233334,Form3,http://robottool.hol.es/,1,,NL (EUR),"id('priceForm3')",1,C,234
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1233334,Form3,http://robottool.hol.es/,1,,NL (EUR),"id('ff')",2,I,345
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1233334,Form3,http://robottool.hol.es/,1,,NL (EUR),"id('inputForm3')",3,L,
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1233334,Form3,http://robottool.hol.es/,1,,NL (EUR),"id('priceForm3')",4,C,
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1234,eerste prijs,http://robottool.hol.es/,1,test1,,"id('price1')",1,C,
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1235,Tweede prijs,http://robottool.hol.es/,1,,,"id('price2')",1,C,
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1236,link->derdeprijs,http://robottool.hol.es/,1,hallo0989098)(*)(*(*^*^%%&#%$#,NL (EUR),/x:html/x:body/x:a,1,L,
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1236,link->derdeprijs,http://robottool.hol.es/,1,hallo0989098)(*)(*(*^*^%%&#%$#,NL (EUR),"id('price3')",2,C,
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1237,Eight price,http://robottool.hol.es/,1,wdwdw,,"id('price7')",1,C,
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1237,Eight price,http://robottool.hol.es/,1,wdwdw,,"id('volume7')",2,C,
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1245,form1,http://robottool.hol.es/,1,wcwecwedwsd,,/x:html/x:body/x:form[1]/x:input[1],1,I,eerste var
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1245,form1,http://robottool.hol.es/,1,wcwecwedwsd,,/x:html/x:body/x:form[1]/x:input[2],3,S,tweede
+Test robottool.hol.es,Testsite http://robottool.hol.es/,Testing strange characters and long lines$%^%$%^%$(*&,1245,form1,http://robottool.hol.es/,1,wcwecwedwsd,,"id('form1Price3')",4,C,
