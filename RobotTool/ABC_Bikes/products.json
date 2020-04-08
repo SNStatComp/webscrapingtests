@@ -1,0 +1,74 @@
+{
+	"products" : [
+		{
+			"name" : "Awesome Blue",
+			"price" : "179.99",
+			"options" : [
+				{ "Size" : "Medium,Large" },
+				{ "Color" : "Blue,Red,Black" }
+			],
+			"image" : "../images/road-street-wheel-bicycle-bike-vehicle-121797-pxhere.com.jpg",
+			"description" : "Classical Blue Dutch bike with transport facilities"
+		},
+		{
+			"name" : "Retro flower bike",
+			"price" : "150.99",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Purple,Blue,Red" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "../images/wheel-retro-flower-bicycle-bike-transportation-99180-pxhere.com.jpg",
+			"description" : "Retro flower bicycle"
+		},
+		{
+			"name" : "Mothers bike",
+			"price" : "230.99",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" }
+			],
+			"image" : "../images/wheel-bicycle-bike-vehicle-gear-handle-bar-7912-pxhere.com.jpg",
+			"description" : "Womens bike with gear and handbrakes"
+		},
+		{
+			"name" : "Papas work bike",
+			"price" : "250.00",
+			"options" : [
+				{ "Size" : "Medium,Large" },
+				{ "Color" : "Grey, Black, Blue" }
+			],
+			"image" : "../images/work-man-person-road-traffic-street-879291-pxhere.com.jpg",
+			"description" : "For traveling to work or leisure time"
+		},
+		{
+			"name" : "Jumpy",
+			"price" : "650.00",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Orange, Red, Yellow" }
+			],
+			"image" : "../images/man-person-wheel-bicycle-jump-vehicle-1132827-pxhere.com.jpg",
+			"description" : "For the real daredavils"
+		},
+		{
+			"name" : "Goofy",
+			"price" : "220.00",
+			"options" : [
+				{ "Size" : "Small" },
+				{ "Color" : "Red, Blue" }
+			],
+			"image" : "../images/man-boy-bicycle-bike-vehicle-balance-1088522-pxhere.com.jpg",
+			"description" : "Excellent for starting your bicycle experience"
+		},
+		{
+			"name" : "Speedy pleasure",
+			"price" : "400.00",
+			"options" : [
+				{ "Size" : "Medium, Large" },
+				{ "Color" : "Green, DarkBlue" }
+			],
+			"image" : "../images/bicycle-bike-male-recreation-vehicle-healthy-916809-pxhere.com.jpg",
+			"description" : "Stay healthy, especially now"
+		}
+	]
+}
