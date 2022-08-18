@@ -3,7 +3,7 @@ Webscraping testing ground for several web scraping tools from Statistics Nether
 
 ## Tests for the [Web scraping course](https://github.com/SNStatComp/CourseWebscraping):
 
-- Price list 1: [ABC_Bikes](https://snstatcomp.github.io/CourseWebscraping/webscrapingtestingground/price-list-1.html)
+- Price list: [price_list1](https://snstatcomp.github.io/CourseWebscraping/webscrapingtestingground/price-list-1.html)
 
 
 ## Tests for the [RobotTool](https://github.com/SNStatComp/RobotTool):
